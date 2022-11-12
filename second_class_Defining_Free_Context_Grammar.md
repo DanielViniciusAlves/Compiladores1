@@ -8,13 +8,13 @@ A free context grammar is used to specify a language, this can be done because t
 
 Lets consider the operation: 1+2x3. There are three different ways that this operation can be rearranged, infixed, postfixed and prefixed:
     
-    1. Infixed: 1+2x3;
-    2. Prefixed: +1x23;
-    3. POstfixed: 23x1+.
+    Infixed: 1+2x3;
+    Prefixed: +1x23;
+    Postfixed: 23x1+.
     
 * The only one that demand the utilization of parenthesis is the infixed type of notation, this can be demonstrated as the operation itself is made:
 
-    1+2x3 -> 1+(2x3) -> 1+6 -> (1+6) -> 7
+    1+2x3 -> 1+(2x3) -> 1+6 -> (1+6) -> 7;
 
 This means that the infixed notation itself will generate a ambiguity, to solve this problem is used a associative analyses(in this case to the left) and a analyses of the precedence of the operator.
 
