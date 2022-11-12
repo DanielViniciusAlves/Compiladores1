@@ -3,7 +3,6 @@
 ## This directory has the purpose of defining a Grammatical Predictive Analyzer and implementing the code in Python and C for the following context free grammar:
 
 
-
 <center>
 
 ![alt text](../assets/top_down_context_free_grammar.png "Context Free Grammar")
